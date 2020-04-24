@@ -1,0 +1,147 @@
+/* Tophografy */
+html {
+    font-size: 18px;
+}
+body {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size: 18px; /* convertir a em */
+    line-height: 23px;
+}
+h1 {
+    font-size: 70px;
+    line-height: 84px;
+}
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+h3 {
+    font-size: 44px;
+    line-height: 51px;
+}
+h6 {
+    font-size: 18px;
+    line-height: 21px;
+}
+h1,
+h2,
+h3,
+h6 {
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: 700;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h6:first-child {
+    padding: 0;
+    margin: 0;
+}
+p {
+    line-height: 23px;
+    margin-bottom: 19px;
+}
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Generals */
+:root { 
+    --primary-color: #189952;
+    --secondary-color: #302a2a;
+    --terteary-color: #8198be;
+  
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+
+    --font-1: 'Kalam', cursive;
+    --font-2: 'Bowlby One SC', cursive;
+}
+* {
+    box-sizing: border-box;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;  /* imagenes responsive */
+    height: auto;
+}
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* banner */
+.main-hero-banner{
+    background-image:  linear-gradient(180deg, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 60%),
+                        url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-banner{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-banner .content{
+    width: 800px;
+    text-align: center;
+}
+.hero-banner .content h1{
+    font-size: 5em;
+    color: var(--primary-color);
+    text-shadow: 1px 1px #111,
+                 2px 2px #222,
+                 3px 3px #222,
+                 4px 4px #222,
+                 5px 5px #222,
+                 6px 6px #222,
+                 7px 7px #222,
+                 8px 8px #222,
+                 9px 9px #222,
+                 10px 10px #222,
+                 11px 11px #222,
+                 12px 12px #222,
+                 13px 13px #222,
+                 14px 14px #222,
+                 15px 15px #222;
+    transform: rotate(-5deg);
+}
+.hero-banner .content p {
+    color: var(--secondary-color);
+    margin-top: 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* My Sevices */
+.main-container{
+    text-align: center;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+}
+.content h2{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.flex-caption {
+    width: 100%;
+    padding: 2%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 14px;
+    line-height: 18px;
+  }
