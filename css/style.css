@@ -336,7 +336,6 @@ figcaption{
 }
 
 @media screen and (max-width: 640px) {
-    /** Gallery **/
     .main-harvest-load{
         height: 1050px;
     }
